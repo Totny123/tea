@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+  <title>联系我们</title>
+  <link rel="icon" href="images\favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css\bootstrap.css">
+  <link rel="stylesheet" href="css\myCss.css">
+  <script src="js\jquery-3.5.1.js"></script>
+  <script src="js\bootstrap.js"></script>
+  <style>
+    @media screen and (min-width: 769px) {
+      #nav6 {
+        border: 1px solid #a7d500;
+        border-radius: 50px;
+        color: #a7d500;
+      }
+
+      #nav6 a {
+        color: #a7d500;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <a href="#" class="up"><img src="images\up.jpg"
+      style="width: 60px;height: 60px;position: fixed;right: 20px;bottom: 20px;z-index: 9;opacity: 0.8;border-radius: 50%;"></a>
+  <!-- 导航条 -->
+  <nav class=" navbar navbar-default navbar-inverse navbar-fixed-top">
+    <div class=" container-fluid">
+      <div class=" navbar-header">
+        <button class=" navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class=" icon-bar"></span>
+          <span class=" icon-bar"></span>
+          <span class=" icon-bar"></span>
+          <span class=" icon-bar"></span>
+        </button>
+        <a href="#" class=" navbar-brand">
+          <!-- <img src="images\15714243.jpg" alt="" class="nav-logo"> -->
+        </a>
+      </div>
+      <div class=" collapse navbar-collapse navbar-left">
+        <img src="images\15714243.jpg" alt="" class="nav-logo">
+        <ul class=" nav navbar-nav">
+          <li id="nav1">
+            <div class="nav-div">
+              <a href="index.html">首页</a>
+            </div>
+          </li>
+          <li id="nav2">
+            <div class="nav-div">
+              <a href="about.html">关于奈雪</a>
+            </div>
+          </li>
+          <li id="nav3">
+            <div class="nav-div">
+              <a href="product.html">产品介绍</a>
+            </div>
+          </li>
+          <li id="nav4">
+            <div class="nav-div">
+              <a href="brand.html">品牌跨界</a>
+            </div>
+          </li>
+          <li id="nav5">
+            <div class="nav-div">
+              <a href="zone.html">空间展示</a>
+            </div>
+          </li>
+          <li id="nav6">
+            <div class="nav-div">
+              <a href="contact.html">联系我们</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- 轮播图 -->
+  <div id="mycarousel" class=" carousel slide" data-ride="carousel">
+    <ol class=" carousel-indicators">
+      <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+    </ol>
+
+    <div class=" carousel-inner">
+      <div class=" item active">
+        <img src="images\contact.png" alt="" style="width: 100%;">
+      </div>
+    </div>
+
+    <a href="#mycarousel" data-slide="prev" class=" left carousel-control">
+      <span class=" glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a href="#mycarousel" class=" right carousel-control" data-slide="next">
+      <span class=" glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+  <!-- 中部 -->
+  <div class=" container-fluid xiayi">
+    <div class=" row">
+      <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+        <p id="cp1">联系我们</p>
+      </div>
+    </div>
+    <div class=" row">
+      <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+        <p id="cp2">CONTACT US</p>
+      </div>
+    </div>
+  </div>
+  <!-- 留言 -->
+  <div class=" container">
+    <div class=" row">
+      <form>
+        <div class=" form-group">
+          <input type="text" class=" form-control" placeholder="留言标题">
+        </div>
+        <div class=" form-group">
+          <textarea rows="7" class=" form-control" placeholder="留言内容"></textarea>
+        </div>
+        <div class=" form-group">
+          <input type="text" class=" form-control" placeholder="联系邮箱">
+        </div>
+        <div class=" form-group text-right">
+          <button class=" btn btn-primary btn-lg" style="background-color: black;width: 100px;">提交</button>
+        </div>
+    </div>
+    </form>
+  </div>
+  </div>
+  <!-- 版权信息，联系方式 -->
+  <div class=" container-fluid banquan-div" style="padding: 0px;background-color: black;height: 235px;">
+    <div class=" row banquan">
+      <div class=" col-md-3"></div>
+      <div class=" col-md-3">
+        <div class=" row">
+          <span class=" glyphicon glyphicon-info-sign"></span>
+          <span>版权所有：深圳市品道餐饮管理有限公司</span>
+        </div>
+        <div class=" row">
+          <span class=" glyphicon glyphicon-map-marker"></span>
+          <span>地址：广东省深圳市福田区泰然九路皇冠科技园3栋F座</span>
+        </div>
+        <div class=" row">
+          <span class=" glyphicon glyphicon-earphone"></span>
+          <span>电话：0755-83161714</span>
+        </div>
+        <div class=" row">
+          <span class=" glyphicon glyphicon-envelope"></span>
+          <span>邮箱：service@pin-dao.cn</span>
+        </div>
+      </div>
+      <div class=" col-md-6">
+        <h5>官方媒体：</h5>
+        <div class=" row">
+          <div class=" col-md-3" style="text-align: center;">
+            <img src="images\gong.jpg" alt="">
+            <p>微信公众号</p>
+          </div>
+          <div class=" col-md-3" style="text-align: center;">
+            <img src="images\xiao.png" alt="">
+            <p>点单小程序</p>
+          </div>
+          <div class=" col-md-3" style="text-align: center;">
+            <img src="images\weibo.png" alt="">
+            <p>官方微博</p>
+          </div>
+          <div class=" col-md-3" style="text-align: center;">
+            <img src="images\tianmao.png" alt="">
+            <p>天猫旗舰店</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
